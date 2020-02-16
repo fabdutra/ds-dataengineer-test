@@ -84,4 +84,6 @@ $ kafka-console-consumer --bootstrap-server localhost:9092 --property schema.reg
 
 
 ### Databricks
-Para execução do notebook quesito-bonus-streaming.ipynb foi utilizado o <a href="community.cloud.databricks.com/" target="_blank">**databricks**</a> em sua versão gratuita community. A escolha se deu pela possibilidade de implementação de uma arquitetura Kappa, onde os dados são ingeridos, processados e posteriormente armazenados diretamente no delta lake.
+Para execução do notebook quesito-bonus-streaming.ipynb foi utilizado o <a href="community.cloud.databricks.com/" target="_blank">**databricks**</a> em sua versão gratuita community. A escolha se deu pela possibilidade de implementação de uma arquitetura Kappa, onde os dados são ingeridos no Kafka, processados no Spark e posteriormente armazenados diretamente no Delta Lake.
+
+[![kappa](https://storage.googleapis.com/repo-files/kappa.png)]()
