@@ -1,6 +1,6 @@
 # Teste Técnico - Engenharia de Dados
 
-Este repositório possui as respostas das questões de quesito mínimo e bônus presentes no teste técnico. Todo o código fonte (códigos e queries) pode ser encontrado dentro do arquivo [Analise.html](https://github.com/fabdutra/ds-dataengineer-test/edit/master/Analise.html) bem como a explicação sobre cada questão. Para a questão bônus de streaming, foi gerado o arquivo Analise-stream.html. Foram disponibilidados também os notebooks utilizados na realização do teste. São eles Analise.ipynb e Analise-stream.ipynb.
+Este repositório possui as respostas das questões de quesito mínimo e bônus presentes no teste técnico. Todo o código fonte (códigos e queries) pode ser encontrado dentro do arquivo [Analise.html](https://github.com/fabdutra/ds-dataengineer-test/edit/master/Analise.html) bem como a explicação sobre cada questão. Para a questão bônus de streaming, foi gerado o arquivo Analise-stream.html. Foram disponibilidados também os notebooks utilizados na realização do teste. São eles [Analise.ipynb](https://github.com/fabdutra/ds-dataengineer-test/blob/master/notebooks/Analise.ipynb) e [Analise-stream.ipynb](https://github.com/fabdutra/ds-dataengineer-test/blob/master/notebooks/Analise-stream.ipynb).
 
 ## Conteúdo
 
