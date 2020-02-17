@@ -21,7 +21,7 @@ No bucket `ds-nyc-taxi-trips` foram armazenados todos os datasets utilizados no 
 [![ds-nyc-taxi-trips bucket](https://storage.googleapis.com/repo-files/bucket-details.png)]()
 
 ### Dataproc Cluster
-O cluster `nyc-taxi-trips` possui um nó master e dois workers. Foi criado com a opção do componente Jupyter notebook. Nele foi executado o notebook quesitos-minimos-bonus.ipynb
+O cluster `nyc-taxi-trips` possui um nó master e dois workers. Foi criado com a opção do componente Jupyter notebook. Nele foi executado o notebook Analise.ipynb
 
 ### Ubuntu VM Instance
 A VM confluent foi criada para utilização do kafka durante a execução do teste bônus de streaming.
