@@ -86,6 +86,6 @@ $ kafka-console-consumer --bootstrap-server localhost:9092 --property schema.reg
 
 
 ### Databricks
-Para execução do notebook [Analise-streaming.ipynb](https://github.com/fabdutra/ds-dataengineer-test/blob/master/notebooks/Analise-streaming.ipynb) foi utilizado o <a href="community.cloud.databricks.com/" target="_blank">**databricks**</a> em sua versão gratuita community. A escolha se deu pela possibilidade de implementação de uma arquitetura Kappa, onde os dados são ingeridos no Kafka, processados no Spark e posteriormente armazenados diretamente no Delta Lake.
+Para execução do notebook [Analise-streaming.ipynb](https://github.com/fabdutra/ds-dataengineer-test/blob/master/notebooks/Analise-streaming.ipynb) foi utilizado o [databricks](https://community.cloud.databricks.com/ "Databricks Community's Homepage") em sua versão gratuita community. A escolha se deu pela possibilidade de implementação de uma arquitetura Kappa, onde os dados são ingeridos no Kafka, processados no Spark e posteriormente armazenados diretamente no Delta Lake.
 
 [![kappa](https://storage.googleapis.com/repo-files/kappa.png)]()
