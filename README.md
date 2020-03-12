@@ -18,12 +18,12 @@ Em toda a solução foram provisionadas instâncias na GCP (Google Cloud Platfor
 No bucket `ds-nyc-taxi-trips` foram armazenados todos os datasets utilizados no teste, os gráficos gerados em cada questão e os notebooks criados durante a solução.
 
 
-[![ds-nyc-taxi-trips bucket](https://storage.googleapis.com/repo-files/bucket-details.png)]()
+[![ds-nyc-taxi-trips bucket](https://storage.googleapis.com/public-data-engineering/bucket-details.png)]()
 
 ### Dataproc Cluster
 O cluster `nyc-taxi-trips` possui um nó master e dois workers. Foi criado com a opção do componente Jupyter notebook. Nele foi executado o notebook Analise.ipynb
 
-[![vm instances detail](https://storage.googleapis.com/repo-files/VM-instances-details.png)]()
+[![vm instances detail](https://storage.googleapis.com/public-data-engineering/VM-instances-details.png)]()
 
 ### Ubuntu VM Instance
 A VM confluent foi criada para utilização do kafka durante a execução do teste bônus de streaming.
@@ -88,4 +88,4 @@ $ kafka-console-consumer --bootstrap-server localhost:9092 --property schema.reg
 ### Databricks
 Para execução do notebook [Analise-streaming.ipynb](https://github.com/fabdutra/ds-dataengineer-test/blob/master/notebooks/Analise-streaming.ipynb) foi utilizado o [databricks](https://community.cloud.databricks.com/ "Databricks Community's Homepage") em sua versão gratuita community. A escolha se deu pela possibilidade de implementação de uma arquitetura Kappa, onde os dados são ingeridos no Kafka, processados no Spark e posteriormente armazenados diretamente no Delta Lake.
 
-[![kappa](https://storage.googleapis.com/repo-files/kappa.png)]()
+[![kappa](https://storage.googleapis.com/public-data-engineering/kappa.png)]()
