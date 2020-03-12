@@ -4,7 +4,7 @@ Este repositório possui um projeto pessoal para análise de uma base de dados d
 
 ## Conteúdo
 
-- [Questões Respondidas](#Questões Respondidas)
+- [Questões](#Questões)
 - [Arquitetura GCP](#Arquitetura)
     - Cloud Storage
     - Dataproc Cluster
@@ -12,7 +12,7 @@ Este repositório possui um projeto pessoal para análise de uma base de dados d
 - [Databricks](#Databricks)
 - [Arquivos](#Arquivos)
 
-## Questões Respondidas
+## Questões
 Foram respondidas as seguintes questões no notebook [Analise.ipynb](https://github.com/fabdutra/ds-dataengineer-test/blob/master/notebooks/Analise.ipynb):
 1. Qual a distância média percorrida por viagens com no máximo 2 passageiros?
 2. Quais os 3 maiores vendors em quantidade total de dinheiro arrecadado?
